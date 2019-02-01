@@ -31,4 +31,3 @@ if z == 1:
     print('SzukBin: 0')
 else:
     print('SzukBin: ',z,)
-asss
