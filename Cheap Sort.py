@@ -33,10 +33,9 @@ while boool:
     if limit == 0:
         boool = False
         break
-    n = random.randrange(2, random.randrange(3, 100))  # długość początkowa listy
+    n = random.randrange(2, random.randrange(3, 10000))  # długość początkowa listy
 
     A = []
-    B = []
     i = 0
     for i in range(0, n):
         A.append(1 + i)
@@ -44,7 +43,6 @@ while boool:
 
     for i in range(0, random.randint(1, len(A) - 1)):  # ile wartości wyjetych (max n - 1)
         z = random.randint(0, len(A) - 1)
-        B.append(A[z])
         del A[z]
 
     x = random.randint(1, A[len(A) - 1])
