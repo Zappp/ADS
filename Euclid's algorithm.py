@@ -2,7 +2,7 @@ import math
 
 
 def euclid_algorithm(a, b):
-    if (b == 0):
+    if b == 0:
         return a, 1, 0
     else:
         d, x, y = euclid_algorithm(b, a % b)
